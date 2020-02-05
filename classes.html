@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.a {
+  text-align: center;
+  text-indent: 100px;
+}
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+img.a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d42a84;
+  color: white;
+}
+
+ul.my-list-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000; <!--Bar Colour -->
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white; <!--Bar text colour -->
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FF8C00;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="footer.css">
+<body style="background-color:#1a1a1a">
+</head>
+<body>
+<title>Serious Fitness - Classes</title>
+<font face="verdana" size="+1">
+<div id='nav'>
+    <img src="img/logo2.png" id="logo"/>
+<nav>   
+   <ul class="my-list-style">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="gyms.html">GYMS</a></li>
+		<li><a href="classes.html">CLASSES</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="contact.html">CONTACT US</a></li>
+		<li style="float:right">
+		<a href="#"class="fa fa-facebook"></a>
+		<a href="#"class="fa fa-instagram"></a></li>
+	</ul></font>
+</nav></div>
+<font color="white" size="+2" face="verdana"><br>
+<h1>CLASSES</h1></font><br>
+<form action="nodetails.html">
+	<input type="image" src="img/boxfit.png" alt="Blanch Gym" style=
+"width:330px;height:360px; class="a">
+<form action="nodetails.html">
+	<input type="image" src="img/spin.png" alt="Blanch Gym" style=
+"width:330px;height:360px; class="a">
+	
+	<br><br><br>
+	
+	<form action="nodetails.html">
+	<input type="image" src="img/strength.png" alt="Blanch Gym" style=
+"width:330px;height:360px; class="a">
+<form action="nodetails.html">
+	<input type="image" src="img/yoga.png" alt="Blanch Gym" style=
+"width:330px;height:360px; class="a">
+<!--### FOOTER ###-->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<div class="footer">
+<div class="bo-wrap clr4">
+  <div class="bo-footer">
+    <div class="bo-footer-social"></div>
+  </div>
+</div>
+<div class="bo-wrap clr3">
+  <div class="bo-footer">
+    <div class="bo-footer-smap">
+        <a href="https://goo.gl/maps/JR2J5B2fvtLBb8qX9">Find Us</a> | <a href="gyms.html">Policy</a> | <a href="contact.html">Contact Us</a>
+	  </div>
+	  <div class="bo-footer-uonline">
+           <script id="_wautoy">var _wau = _wau || []; _wau.push(["small", "p6egqc1t5bze", "toy"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/small.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+	  </div>
+	  <div class="bo-footer-power">
+      Powered By <abbr title="Aaron Bentley">AB</abbr> - <a href="http://www.google.com/">Web &amp Apps Developer</a>
+	  </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="bo-wrap clr4">
+  <div class="bo-footer">
+    <div class="bo-footer-copyright">&copy;2019 Serious Fitness</div>
+  </div>
+</div>
+</div>
+</html>
